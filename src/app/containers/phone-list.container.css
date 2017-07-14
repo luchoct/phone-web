@@ -1,0 +1,10 @@
+.phone-list-title {
+  color: grey;
+  margin: 20px;
+}
+.phone-list {
+  border: 1px grey solid;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}

@@ -1,0 +1,25 @@
+<div class="phone-item">
+  <div class="row">
+    <div class="col-lg-6 col-sm-6 col-xs-12 nopadding">
+      <img class="picture img-thumbnail" src="assets/images/{{item.pictureId}}.jpg" [alt]="item.title"/>
+    </div>
+    <div class="col-lg-6 col-sm-6 col-xs-12 nopadding">
+      <h4 class="text-success" >{{item.title}}</h4>
+      <div class="row">
+        <div class="col-12">
+          {{item.description}}
+        </div>
+        <div class="col-12">
+          <span class="phone-fee badge badge-success">{{item.fee}}€</span>
+        </div>
+        <div class="col-12">
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <ul class="features">
+        <li *ngFor="let feature of formattedFeatures">{{feature}}</li>
+      </ul>
+    </div>
+  </div>
+</div>
